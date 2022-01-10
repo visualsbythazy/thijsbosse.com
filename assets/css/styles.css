@@ -44,6 +44,7 @@
     transition: .2s ease;
   }
 
+  .about__text but {}
 
 
   @media screen and (min-width: 968px) {

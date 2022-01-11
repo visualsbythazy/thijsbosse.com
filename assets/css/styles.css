@@ -362,6 +362,7 @@
     font-weight: var(--font-semi);
     border-radius: .5rem;
     transition: .3s;
+    margin-top: 1.5em;
   }
 
 

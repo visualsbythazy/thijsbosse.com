@@ -44,6 +44,10 @@
     transition: .2s ease;
   }
 
+  .l-main {
+    overflow: none;
+  }
+
 
 
 
@@ -116,7 +120,9 @@
     padding: 30px;
   }
 
-
+  #home {
+    padding-top: 250px;
+  }
 
   .section {
     padding-top: 3rem;
@@ -190,7 +196,7 @@
     }
 
     .home__social {
-      margin-top: 3em;
+      margin-top: 5em;
     }
 
   }
@@ -246,9 +252,9 @@
 
   .logopic {
     position: absolute;
-    top: 5%;
+    top: 9.5%;
     z-index: -1;
-    left: 50%;
+    left: 40%;
     right: -15%;
     padding-right: 200px;
     margin-top: 11vh;
@@ -325,7 +331,7 @@
 
   .home__social-icon {
     width: max-content;
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-6);
     font-size: 2rem;
     color: var(--second-color);
     margin-right: var(--mb-4);
@@ -557,11 +563,11 @@
 
   @media screen and (min-width: 576px) {
     .home {
-      padding: 4rem 0 2rem;
+      padding: 5rem 0 2rem;
     }
 
     .home__social {
-      padding-bottom: 1.5rem;
+      padding-bottom: 5rem;
       flex-direction: row;
       align-self: flex-end;
     }
